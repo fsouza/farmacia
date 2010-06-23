@@ -1,3 +1,4 @@
 from django.db import models
 
-# Create your models here.
+class Remedio(models.Model):
+    nome = models.CharField(max_length=255)
