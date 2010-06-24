@@ -17,7 +17,7 @@ def gravar_remedios(quantidade_remedios):
 def visitar_pagina_listagem():
     with Mock() as delivery:
         from delivery.models import Remedio
-        Remedio.objects.all() > scc.remedios
+        Remedio.objects.all() >> scc.remedios
     client = Client()
     scc.response = client.get('/delivery/remedios')
     delivery.validate()
