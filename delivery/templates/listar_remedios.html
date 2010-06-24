@@ -1,0 +1,13 @@
+<html>
+    <head>
+      <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+      <title>Lista de remédios</title>
+    </head>
+    <body id="">
+        <ul>
+            {% for remedio in remedios %}
+                <li>{{ remedio.nome }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
