@@ -5,4 +5,4 @@ Projeto exemplo de implementação de uma listagem de medicamentos utilizando BD
 
 Foi apresentado em um post no meu blog.
 
- **TODO:** Terminar o post =P
+ Veja o post aqui: http://www.franciscosouza.com.br/2010/06/24/bdd-em-django-desenvolvimento-web-mais-divertido-com-qualidade-usando-freshen/
